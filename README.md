@@ -66,7 +66,7 @@ I have completed Msc in Data Science and Analytics in University of Leeds and ha
 ## 📚 Education:
 
 - **Master of Science in Data Science and Analytics**, University of Leeds (2025)
-- **Bachelor of Engineering**, SRM Easwari Engineering College (Affiliated with Anna University) (2023)
+- **Bachelor of Engineering**, SRM Easwari Engineering College (Affiliated with **Anna University**) (2023)
 
 ---
 
