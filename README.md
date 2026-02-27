@@ -30,12 +30,12 @@ I have completed Msc in Data Science and Analytics in University of Leeds and ha
 ## Technical Skills
 
 - **Programming:** Python, C++, SQL, R, HTML
-- **Machine Learning & AI:** TensorFlow, PyTorch, Scikit-Learn, XGBoost, Random Forest,Logistic Regression, LSTM, GRU, Reinforcement Learning (Deep Q-Learning, PPO), NLP, BERT, Hugging Face Transformers, spaCy
+- **Machine Learning & AI:** TensorFlow, PyTorch, Scikit-Learn, XGBoost, Random Forest, Logistic Regression, LSTM, GRU, Reinforcement Learning (Deep Q-Learning, PPO), NLP, BERT, Hugging Face Transformers, spaCy
 - **Data Engineering & Analysis:** Pandas, NumPy, Apache Spark, Apache Kafka, Hadoop, Prophet, ARIMA, Time Series Analysis, Data Wrangling, CRM 
 - **Visualization:** Power BI, Matplotlib, Tableau
 - **Databases:** PostgreSQL, MySQL, MongoDB, Google BigQuery, Amazon Redshift, Snowflake Cloud
-- **DevOps & Tools:** Docker, Kubernetes, Jenkins, Git
-- **Web Development & APIs:** React.js, Redux.js, Node.js, Express.js, Flask, FastAPI, JSON Web Token(JWT), WebSocket
+- **DevOps & Tools:** Docker, Git
+- **Web Development & APIs:** React.js, Redux.js, Node.js, Express.js, Flask, FastAPI, JSON Web Tokens (JWT), WebSocket
 
 ---
 
