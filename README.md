@@ -29,7 +29,7 @@ I have completed Msc in Data Science and Analytics in University of Leeds and ha
 
 ## Technical Skills
 
-- **Programming:** Python, SQL, R, HTML
+- **Programming:** Python, SQL, R
 - **Machine Learning & AI:** Scikit-Learn, XGBoost, Random Forest, Logistic Regression, LSTM, NLP, BERT, spaCy
 - **Data Engineering & Analysis:** Pandas, NumPy, Apache Kafka, Hadoop, Prophet, ARIMA, Time Series Analysis, Data Wrangling, CRM 
 - **Visualization:** Power BI, Matplotlib, Tableau
