@@ -10,12 +10,12 @@ Data Science graduate specializing in machine learning and analytical systems fo
 
 ### 🌐 Connect with me
 
-<p>
-  <a href="YOUR_LINKEDIN_LINK" target="_blank">
+<p align="left">
+  <a href="https://www.linkedin.com/in/suriyaprasathp" target="_blank">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/> LinkedIn
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="YOUR_PORTFOLIO_LINK" target="_blank">
+  <a href="https://suriyaprasath-parameswaran.github.io/portfolio-website/" target="_blank">
     <img src="https://img.icons8.com/ios-filled/50/ffffff/domain.png" width="20"/> Portfolio
   </a>
 </p>
