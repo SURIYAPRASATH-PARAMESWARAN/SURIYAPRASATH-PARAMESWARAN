@@ -2,7 +2,9 @@
 
 # Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) I'm Suriya,
 
-### Aspiring Data Scientist | AI/ML Engineer | Full-Stack Developer
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=900&pause=300&color=00BFFF&center=true&vCenter=true&repeat=true&width=520&lines=Aspiring+Data+Scientist;Aspiring+AI%2FML+Engineer;Aspiring+Full-Stack+Developer" alt="Typing SVG" />
+</p>
 
 Data Science graduate specializing in machine learning and analytical systems for data-driven decision making. With a strong foundation in **Python** and **SQL**, I develop projects across **NLP, predictive modelling, and time-series forecasting**. I focus on building structured data workflows — from **raw data processing and feature engineering to model evaluation** — turning complex datasets into practical insights that support real analytical and business problems.
 
