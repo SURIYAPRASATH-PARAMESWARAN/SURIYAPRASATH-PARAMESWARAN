@@ -10,7 +10,7 @@ Data Science graduate specializing in machine learning and analytical systems fo
 
 ---
 
-### 🌐 Connect with me
+### 🌐 Connect with me,
 
 <p align="left">
   <a href="https://www.linkedin.com/in/suriyaprasathp" target="_blank">
