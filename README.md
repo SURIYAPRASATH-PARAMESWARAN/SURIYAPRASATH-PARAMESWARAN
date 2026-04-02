@@ -1,6 +1,6 @@
 <img src="Banner.png">
 
-# Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) I'm Suriya
+# Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) I'm Suriya,
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=900&pause=300&color=00BFFF&center=true&vCenter=true&repeat=true&width=520&lines=Aspiring+Data+Scientist;Aspiring+AI%2FML+Engineer;Aspiring+Full-Stack+Developer" alt="Typing SVG" />
