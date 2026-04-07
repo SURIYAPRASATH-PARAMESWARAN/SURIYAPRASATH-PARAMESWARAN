@@ -6,7 +6,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=900&pause=300&color=00BFFF&center=true&vCenter=true&repeat=true&width=520&lines=Aspiring+Data+Scientist;Aspiring+AI%2FML+Engineer;Aspiring+Full-Stack+Developer" alt="Typing SVG" />
 </p>
 
-Data Science graduate specializing in machine learning and analytical systems for data-driven decision making. With a strong foundation in **Python** and **SQL**, I develop projects across **NLP, predictive modelling, and time-series forecasting**. I focus on building structured data workflows — from **raw data processing and feature engineering to model evaluation** — turning complex datasets into practical insights that support real analytical and business problems.
+Data Science graduate specialising in machine learning and analytical systems for data-driven decision making. With a strong foundation in **Python** and **SQL**, I develop projects across **NLP, predictive modelling, and time-series forecasting**. I focus on building structured data workflows — from **raw data processing and feature engineering to model evaluation** — turning complex datasets into practical insights that support real analytical and business problems.
 
 ---
 
@@ -44,18 +44,22 @@ Data Science graduate specializing in machine learning and analytical systems fo
 ### Machine Learning & Statistics
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge)
+![LightGBM](https://img.shields.io/badge/LightGBM-2E8B57?style=for-the-badge)
 ![Time Series](https://img.shields.io/badge/Time--Series-2E8B57?style=for-the-badge)
 ![NLP](https://img.shields.io/badge/NLP-4B8BBE?style=for-the-badge)
 ![Bayesian Networks](https://img.shields.io/badge/Bayesian%20Networks-6A5ACD?style=for-the-badge)
 
-### Deep Learning
+### Deep Learning & NLP
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![LSTM](https://img.shields.io/badge/LSTM-8A2BE2?style=for-the-badge)
+![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=for-the-badge)
 
 ### Data Analysis & Visualization
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
@@ -64,6 +68,7 @@ Data Science graduate specializing in machine learning and analytical systems fo
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
 ![Informatica](https://img.shields.io/badge/Informatica-FF4F00?style=for-the-badge)
 ![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
@@ -87,20 +92,56 @@ Data Science graduate specializing in machine learning and analytical systems fo
 
 ## 🚀 Featured Projects
 
-### 🔐 CVE Severity Classification Using NLP & Topic Modeling [🔗](https://github.com/SURIYAPRASATH-PARAMESWARAN/cve-severity-intelligence-engine)
-Built an NLP-based vulnerability severity classification system using **30K+ CVE records from the NVD dataset**. Applied **Latent Dirichlet Allocation (LDA)** to extract latent vulnerability themes and used topic distributions as features for ML models.
+### 🔐 CyberSec Severity Intelligence Engine — v2 [🔗](https://github.com/SURIYAPRASATH-PARAMESWARAN/cve-severity-intelligence-engine) &nbsp;[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://cve-severity-intelligence-engine.streamlit.app)
+
+End-to-end NLP pipeline that predicts CVE vulnerability severity (LOW / MEDIUM / HIGH / CRITICAL) from raw NVD descriptions. Upgraded from a university dissertation project — v1 used LDA + Random Forest; v2 uses fine-tuned **SecBERT** with full explainability and a live Streamlit app.
 
 **Key Work**
-- Trained **Logistic Regression and Random Forest** classifiers to predict CVSS severity levels (~66% accuracy)
-- Built a **modular Python ML pipeline** with CLI inference
-- Enabled severity prediction directly from raw vulnerability descriptions
+- Fine-tuned **SecBERT** (jackaduma/SecBERT) on 29K+ CVE records — achieves **0.81 F1 on CRITICAL**, the highest-stakes class
+- Built **TF-IDF bigrams + XGBoost** baseline with **SMOTE** oversampling for class imbalance
+- Implemented **SHAP token-level explainability** so analysts know *why* a CVE is rated CRITICAL
+- Benchmarked fine-tuned model against **Claude + GPT-4o zero-shot** to evaluate cost vs performance
+- Deployed as a **live Streamlit app** — paste any CVE description, get instant severity prediction + confidence scores
 
-**Tech:** Python, NLP, LDA, Scikit-Learn, Pandas
+**Tech:** Python, SecBERT, HuggingFace Transformers, XGBoost, SHAP, SMOTE, Streamlit, MLflow
 
 ---
 
-### 📈 SaaS Revenue Intelligence & Forecasting  [🔗](https://github.com/SURIYAPRASATH-PARAMESWARAN/SaaS-Revenue-Intelligence-Engine) 
-Developed a SaaS revenue analytics system to analyze **customer lifecycle behaviour and revenue dynamics** from subscription transaction data.
+### 🎯 Fraud Triage Engine [🔗](https://github.com/SURIYAPRASATH-PARAMESWARAN/Fraud-Triage-Engine)
+
+Production-aware fraud detection system that reframes detection as a **capacity-constrained ranking problem** — not just a binary classifier. Built on the Kaggle credit card fraud dataset with strict temporal splitting and real operational metrics.
+
+**Key Work**
+- Built a **calibrated LightGBM + XGBoost ensemble** using temporal splits (not random) to prevent data leakage
+- Applied **isotonic regression calibration** to align predicted probabilities with empirical fraud rates
+- Implemented **cost-sensitive thresholding** — optimal review capacity derived from a £500 FN / £10 FP cost matrix
+- Achieved **81.3% fraud recall at 500 daily reviews** with **70% cost reduction** vs no model
+- Added **concept drift monitoring** with retraining alerts across 5 chronological test windows
+- Full **SHAP explainability** (global + per-transaction waterfall plots) for FCA/EU AI Act compliance
+
+**Tech:** Python, LightGBM, XGBoost, SHAP, Isotonic Calibration, scikit-learn, Pandas
+
+---
+
+### 📉 Telecom Churn Decision Engine [🔗](https://github.com/SURIYAPRASATH-PARAMESWARAN/teleco-churn-decision-engine)
+
+Profit-optimised retention system that goes beyond churn scoring — combining **survival-adjusted CLV, T-learner uplift modelling, and 0/1 knapsack MILP budget allocation** to maximise expected profit under real constraints.
+
+**Key Work**
+- Trained **LightGBM with isotonic calibration** (AUC 0.838, Brier 0.141) on a strict 60/20/20 split
+- Built **survival-adjusted CLV** using a geometric discount model tied directly to churn probability
+- Implemented a **T-learner uplift model** to target persuadable customers — not just high-churn ones
+- Formulated customer selection as a **0/1 knapsack MILP** (PuLP/CBC) — outperforms greedy by +20% profit
+- Ran **2,000 Monte Carlo simulations** with correlated market shocks — 8.15× ROI at £10k budget
+- Outperforms highest-churn-first targeting by **+37.7% mean profit**
+
+**Tech:** Python, LightGBM, PuLP (CBC solver), SHAP, Monte Carlo simulation, scikit-learn, Pandas
+
+---
+
+### 📈 SaaS Revenue Intelligence & Forecasting [🔗](https://github.com/SURIYAPRASATH-PARAMESWARAN/SaaS-Revenue-Intelligence-Engine)
+
+Developed a SaaS revenue analytics system to analyse **customer lifecycle behaviour and revenue dynamics** from subscription transaction data.
 
 **Key Work**
 - Engineered a **customer-month fact table** to track MRR, churn, and retention
@@ -111,19 +152,6 @@ Developed a SaaS revenue analytics system to analyze **customer lifecycle behavi
 **Evaluation:** MAE, RMSE, MAPE on holdout periods
 
 **Tech:** Python, Pandas, Time-Series Analysis, Regression
-
----
-
-### 🏪 Rossmann Sales Forecasting [🔗](https://github.com/SURIYAPRASATH-PARAMESWARAN/rossmann-sales-forecasting)
-Developed a retail sales forecasting system using **1M+ daily transactions from 1,115 Rossmann stores**.
-
-**Key Work**
-- Performed **time-series decomposition** to analyze promotion effects and weekly seasonality
-- Built **SARIMA forecasting models**
-- Benchmarked against **naive lag-1 and lag-7 baselines**
-- Evaluated predictions using **MAE, RMSE, and SMAPE**
-
-**Tech:** Python, Time-Series Modeling, SARIMA, Pandas
 
 ---
 
@@ -160,4 +188,3 @@ Feel free to explore my projects and repositories.
 I'm always interested in collaborating on data science, machine learning, and analytical systems.
 
 🚀 Let's build impactful solutions with data.
-
