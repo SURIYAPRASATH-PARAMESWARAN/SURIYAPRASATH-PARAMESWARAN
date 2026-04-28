@@ -17,7 +17,7 @@ Data Science graduate specialising in machine learning and analytical systems fo
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/> LinkedIn
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://suriyaprasath-parameswaran.github.io/portfolio-website/" target="_blank">
+  <a href="https://suriyaprasathwebsite.netlify.app/" target="_blank">
     <img src="https://img.icons8.com/ios-filled/50/ffffff/domain.png" width="20"/> Portfolio
   </a>
 </p>
